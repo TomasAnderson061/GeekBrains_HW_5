@@ -60,7 +60,7 @@ void ShowArray(int [] array){
 int Summ(int [] array){
     int summ=0;
     for (int i=0; i<array.Length; i++){
-        if (i%2==0)
+        if (i%2>0) //по нечетным индексам
            summ+= array[i];
     }
     return summ;
