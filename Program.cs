@@ -207,6 +207,10 @@ int max=10;
 int [] array1 = CreateRNDArray(size1, min, max);
 int [] array2 = CreateArrayOfMilti(size2);
 
+Console.Write($"Исходный массив: ");
+
 ShowArray(array1);
 Multip(array1, array2);
+
+Console.Write($"Новый массив: ");
 ShowArray(array2);
